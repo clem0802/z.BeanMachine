@@ -1,4 +1,4 @@
-# z.BeanMachine
+# z.BeanMachine (from Mimo Dev)
 
 # The Bean Machine - Selection page
 
