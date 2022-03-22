@@ -1,0 +1,141 @@
+h1, h2 {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  p, a {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    margin: 0 auto;
+    width: 80%;
+  }
+  
+  nav p {
+    color: #FF5678;
+  }
+
+/* gray:  #F6F2EF*/
+/* Add styles here */
+
+
+/* nav */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.btn-dark {
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+/* banner */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.input-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:320px;
+}
+
+.search {   /*  "Search for a coffee bean"  */
+    background-color: #F6F2EF;
+    color: gray;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 8px;
+    text-align: left;
+    width:200px;
+}
+
+.arrow {
+    background-color: #FF5678;
+    border-radius: 50%;
+    height: 36px;
+    width: 36px;
+}
+
+.illustrate {   /* .banner img */
+    width: 300px;
+}
+
+
+/* about section */
+.pink-underline {
+    color: #FF5678;
+    text-decoration: underline;
+}
+
+/* special offer section */
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.card {
+    border: 1px solid #F6F2EF;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    padding: 16px;
+    background-color: #F6F2EF;
+    border-radius: 20px;
+}
+
+.card img {
+    width: 80%;
+}
+
+.btn-pink {
+    background-color: #FF5678;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 16px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+}
+
+.social-media-icon {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
